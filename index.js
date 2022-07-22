@@ -20,6 +20,6 @@ var corsOptions = {
 // All routes starting with split-payments
 app.use('/split-payments', paymentsRoutes);
 
-app.get('/', (req, res) => { res.send('Hello from homepage') })
+app.get('/', (req, res) => { res.send('LANNNISTER PAY Api') })
 
 app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`));
