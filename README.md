@@ -1,15 +1,15 @@
 ## API Reference
 
 ### Getting Started
-- Base URL: At present this API can only be run locally. PAI is hosted with Github pages at https://odikanwa.github.io/LannisterPay/. The backend app is hosted at the default, `http://127.0.0.1:5000/`.
+- Base URL: At present this API can only be run locally. Static page is hosted at https://odikanwa.github.io/LannisterPay/. The backend app is hosted at the default, `http://127.0.0.1:5000/`.
 - Authentication: This version of the application does not require authentication. 
 
 ### Endpoints 
 
 #### POST /questions
 - General:
-    - Creates a new question using the submitted question, answer, difficulty and category. Returns the success value, id of the created question, current questions, total number of questions and categories to update the frontend.
-    The expected input object pattern is given below.
+    - Implements a transaction payment splitting service (TPSS). The service calculates the amount due to one or more split payment “entities” as well as the amount left after all splits have been computed. Amounts and Balance is calculated in a linear FLAT-PERCENTAGE-RATIO manner.
+    The expected input object pattern is given below. The SplitInfo array can only contain a minimum of 1 split entity and a maximum of 20 entities.
 ``` 
 {
     "ID": 13092,
