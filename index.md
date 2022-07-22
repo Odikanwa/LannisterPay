@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## LannisterPay API
 
-You can use the [editor on GitHub](https://github.com/Odikanwa/LannisterPay/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This API implements a transaction payment splitting service (TPSS). The service calculates the amount due to one or more split payment "entities" as well as the amount left after all splits have been computed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Disclaimer
 
-### Markdown
+API authored for flutterwave assessment. 
+This page would be disabled and the repository made private after feedback from the recruiting team
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Frameworks
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Odikanwa/LannisterPay/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This service was written in vanilla Javascript with nodejs. All dependencies can be found in the package,json file
